@@ -1,6 +1,6 @@
 import time
 import numpy as np
-from mbot_bridge.api import 
+from mbot_bridge.api import MBot
 
 # Madeline Gilmore
 # min distance, cross product, demo, optional small website
@@ -53,7 +53,7 @@ def cross_product(v1, v2):
 
 robot = MBot()
 setpoint = 0  # TODO: Pick your setpoint.
-kp = 0.5  
+kp = 0.2 
 # TODO: Declare any other variables you might need here.
 
 try:
